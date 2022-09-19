@@ -10,7 +10,7 @@ h1.style2 {
     color: rgb(128, 43, 226);
     background-color: rgba(0, 255, 255, 0.308);
     font-style: italic;
-    border: 5px;
+    border: 25px;
     border-style: dotted;
     border-color: darkmagenta;
 }
