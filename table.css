@@ -1,7 +1,27 @@
-table ,th
- {
-    border: 2px solid rgb(221, 25, 25);
-    margin: 0px;  
+table
+{
+    width: 100%;
+    text-align: center;
+    border: 2px solid silver;
 }
 
+thead {
+    background-color: brown;
+    color: white;
+}
 
+tbody {
+    color: green;
+    background-color: beige;
+}
+
+tfoot {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+th, td {
+    padding: 10px;
+}
