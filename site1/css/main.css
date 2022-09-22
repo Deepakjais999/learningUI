@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh);
 }
 
 footer {
@@ -14,26 +14,31 @@ footer {
 .txt-white {
     color: white;
 }
-a{
-    color:yellow;
+
+a {
+    color: yellow;
     font-weight: normal;
+    padding: 10px;
+    border-right: 2px solid;
 }
-.txt-green{
+
+.txt-green {
     color: green;
 }
-.txt-bold{
+
+.txt-bold {
     font-weight: bold;
-    color:rgb(240, 164, 164);
+    color: rgb(240, 164, 164);
 }
-table 
-{
+
+table {
     width: 100%;
     text-align: center;
-    border: 10px solid rgb(85, 231, 141);
+
 }
 
 thead {
-    background-color:rebeccapurple;
+    background-color: rebeccapurple;
     color: white;
 }
 
@@ -50,6 +55,7 @@ tfoot {
     text-align: right;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
 }
