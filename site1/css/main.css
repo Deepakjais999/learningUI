@@ -1,5 +1,6 @@
 body {
     background-image: url('../images/bg.jpg');
+    
     background-repeat: repeat;
 }
 
@@ -15,47 +16,61 @@ footer {
     color: white;
 }
 
-a {
-    color: yellow;
-    font-weight: normal;
-    padding: 10px;
-    border-right: 2px solid;
+a.myclass{
+color: #fff;
 }
 
-.txt-green {
-    color: green;
-}
-
-.txt-bold {
-    font-weight: bold;
-    color: rgb(240, 164, 164);
-}
-
-table {
+table#table2 {
     width: 100%;
     text-align: center;
 
 }
 
-thead {
+table#table2 thead {
     background-color: rebeccapurple;
     color: white;
 }
 
-tbody {
+table#table2 tbody {
     color: green;
     background-color: beige;
     border: none;
 }
 
-tfoot {
+table#table2 tfoot {
     background-color: white;
     color: black;
     font-weight: bold;
     text-align: right;
 }
 
-th,
-td {
+table#table2 th,
+table#table2 td {
     padding: 10px;
+}
+table.navigation{
+    width:100% ; 
+    text-align: center;
+    background-color: blueviolet;
+    
+
+}
+.navigation a{
+    color:#000;
+    font-weight: bold;
+}
+.navigation td{
+    background-color: chartreuse;
+    padding: 10px;
+}
+.roundbtn{
+    height: 150px;
+    border-radius: 75px;
+    width: 150px;
+}
+.myimg{
+    width: 80%;
+     margin-left: auto; 
+     margin-right: auto; 
+    display: block;    
 }

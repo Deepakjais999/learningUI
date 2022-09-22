@@ -12,21 +12,41 @@
 
 <body>
     <header>
-        <h2 class="txt-white">Deepak's Website</h2>
+        <h2 style="color: white;">Deepak's Website</h2>
         <nav>
-            <div style="border: 1px solid white; background-color: rgb(53, 23, 11); width: auto; padding: 3px;height: 50px; display: block; ">
-                <a href="index.html">Home</a>
-                <a href="services.html">Services</a>
-                <a href="blog.html" class="txt-bold">Blog</a>
-                <a href="product.html">Product</a>
-                <a href="fdbk.html">Feedback</a>
-                <a href="Abt.html" class="txt-green">About Us </a>
-                <a href="Cnt.html" class="txt-bold">Contact US</a>
-            </div>
+            <table class="navigation">
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="index.html" class="myclass">Home</a>
+                        </td>
+                        <td>
+                            <a href="services.html">Services</a>
+                        </td>
+                        <td>
+                        <a href="blog.html" class="txt-bold">Blog</a>
+                    </td>
+                    <td>
+                        <a href="product.html">Product</a>
+                    </td>
+                    <td>
+                        <a href="fdbk.html">Feedback</a>
+                    </td>
+                    <td>
+                        <a href="Abt.html" class="txt-green">About Us </a>
+                    </td>
+                    <td>
+                        <a href="Cnt.html" class="txt-bold">Contact US</a>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+                
         </nav>
-        <img alt="main image" src="./images/slider.jpg" style="width: 100%;  " />
+        
+        <img alt="main image" class="myimg" src="./images/slider.jpg"/>
         <div style="border: 100px solid rgb(245, 83, 42);width: auto;">
-            <table>
+            <table id="table2">
                 <thead>
                     <tr>
                         <th>UpComing Events</th>
@@ -45,9 +65,9 @@
                         <td>Welcome</td>
                     </tr>
                     <tr>
-                        <td><input type="button" value="Upcoming Events"></td>
-                        <td><input type="button" value="View All Media"></td>
-                        <td><input type="button" value="Donate Now"></td>
+                        <td><input class="roundbtn" type="button" value="Upcoming Events"></td>
+                        <td><input class="roundbtn" type="button" value="View All Media"></td>
+                        <td><input class="roundbtn" type="button" value="Donate Now"></td>
                     </tr>
                 </tbody>
             </table>
