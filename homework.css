@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 20px;
 }
 
@@ -18,9 +18,8 @@ input {
     border-width: 2px;
 }
 
-input[type='submit'], 
-input[type='reset']
-{
+input[type='submit'],
+input[type='reset'] {
     background-color: aqua;
     width: 200px;
 }

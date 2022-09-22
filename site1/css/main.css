@@ -14,3 +14,14 @@ footer {
 .txt-white {
     color: white;
 }
+a{
+    color:yellow;
+    font-weight: normal;
+}
+.txt-green{
+    color: green;
+}
+.txt-bold{
+    font-weight: bold;
+    color:rgb(240, 164, 164);
+}
