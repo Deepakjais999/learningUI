@@ -2,11 +2,11 @@ table
 {
     width: 100%;
     text-align: center;
-    border: 2px solid silver;
+    border: 10px solid rgb(124, 85, 231);
 }
 
 thead {
-    background-color: brown;
+    background-color: rgb(165, 50, 42);
     color: white;
 }
 
