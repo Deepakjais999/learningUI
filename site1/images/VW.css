@@ -1,12 +1,12 @@
-
 div#div1 {   
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(25, 114, 47);
-    padding: 60px;
+    background-color:aliceblue;
+    
+    height: 500px;
     
     
 }
@@ -14,7 +14,6 @@ div#div1 {
 div.innverDiv {
     width: 15%;
     height: 50px;
-    background-color: rgb(247, 20, 20);
+    background-color: brown;
     margin: 0px;
 }
-
