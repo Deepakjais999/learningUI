@@ -1,0 +1,16 @@
+body {
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+}
+
+header {
+    min-height: calc(100vh - 50px);
+}
+
+footer {
+    color: yellow;
+}
+
+.txt-white {
+    color: white;
+}
