@@ -14,3 +14,42 @@ footer {
 .txt-white {
     color: white;
 }
+a{
+    color:yellow;
+    font-weight: normal;
+}
+.txt-green{
+    color: green;
+}
+.txt-bold{
+    font-weight: bold;
+    color:rgb(240, 164, 164);
+}
+table 
+{
+    width: 100%;
+    text-align: center;
+    border: 10px solid rgb(85, 231, 141);
+}
+
+thead {
+    background-color:rebeccapurple;
+    color: white;
+}
+
+tbody {
+    color: green;
+    background-color: beige;
+    border: none;
+}
+
+tfoot {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+th, td {
+    padding: 10px;
+}
