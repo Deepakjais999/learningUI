@@ -2,7 +2,10 @@ body {
     background-image: url('../images/bg.jpg');
 
     background-repeat: repeat;
+    
 }
+    
+
 
 header {
     min-height: calc(100vh);
@@ -10,6 +13,9 @@ header {
 
 footer {
     color: yellow;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 .txt-white {
@@ -27,13 +33,13 @@ table#table2 {
 }
 
 table#table2 thead {
-    background-color: rebeccapurple;
+    background-color: rgb(70, 21, 119);
     color: white;
 }
 
 table#table2 tbody {
     color: green;
-    background-color: beige;
+    background-color: rgb(238, 238, 159);
     border: none;
 }
 
@@ -52,7 +58,7 @@ table#table2 td {
 table.navigation {
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(138, 115, 160);
     
 }
 
@@ -62,7 +68,7 @@ table.navigation {
 }
 
 .navigation td {
-    background-color: chartreuse;
+    background-color: rgb(192, 144, 156);
     padding: 10px;
 }
 
@@ -74,7 +80,8 @@ table.navigation {
 }
 
 .myimg {
-    width: 80%;
+    width: auto;
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -83,10 +90,11 @@ table.navigation {
     border-color: azure;
 }
 .myimg1{
-    width: 30%;
-    display: flex;
+    width: auto;
+    display:block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100%;
+    
+    
 
 }
