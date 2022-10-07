@@ -25,10 +25,10 @@
 
         <div style="background-color:cadetblue; width: auto;text-align: center;padding-top: 20px; padding-bottom:20px">
 
-            <img src="./site1/images/carnet-logo.svg" style="height:40px ;">
+            <img src="./site1/images/carnet-logo.svg" style="height:40px ;" />
 
         </div>
-        <div class="border-left border-right" style="background-color: tomato;max-width:calc(100vw-100px);display: block;">
+        <div class="border-primary border-left border-right mx-auto" style="max-width: calc(100vw - 200px); height: calc(100vh - 180px)">
             <h2
                 style="text-align:center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; padding-top: 10px;">
                 Create Your Account</h2>
@@ -39,12 +39,11 @@
 
 
             <form>
-                <div style="width: 100%; ;display: flex; flex-direction: row; padding-top: 20px;">
+                <div class="div-level-1">
 
-                    <div style=" width: 33.3%;">
+                    <div class="div-level-2">
 
-                        <div
-                            style="display: flex; flex-direction:column ;max-width:300px;margin-left: auto;margin-right:auto;">
+                        <div class="div-level-3">
 
                             <label for="Tname"><b>Title*</b></label>
 
@@ -68,44 +67,41 @@
                     </div>
 
 
-                    <div
-                        style=" width:33.3% ;border-left-width: 2px;border-right-width: 2px ;border-style: solid;border-color: darkgray;border-top:none;border-bottom: none; ">
+                    <div class="div-level-2 border-left border-right">
 
-                        <div
-                            style="display: flex; flex-direction:column ; margin-left: auto;margin-right: auto;max-width: 300px;margin-left: auto;margin-right:auto;">
+                        <div class="div-level-3">
                             <label for="txtEmail"><b>Email*</b></label>
 
-                            <input type="text" id="txtEmail*" required="required" />
+                            <input type="text" id="txtEmail" required="required" />
 
 
                             <label for="txtMobilePh"><b>Mobile*</b></label>
 
-                            <input type="text" id="txtMobilePh*" required="required" />
+                            <input type="text" id="txtMobilePh" required="required" />
 
                             <label for="txtHomePh"><b>Home Phone*</b></label>
 
-                            <input type="text" id="txtHomePh*" required="required" />
+                            <input type="text" id="txtHomePh" required="required" />
                         </div>
 
                     </div>
-                    <div style="width:33.3% ;">
+                    <div class="div-level-2">
 
-                        <div
-                            style="display: flex;flex-direction:column;max-width: 300px;margin-left: auto;margin-right:auto;">
+                        <div class="div-level-3">
 
 
                             <label for="txtAddress"><b>Address*</b></label>
 
-                            <input type="text" id="txtAddress*" required="required" />
+                            <input type="text" id="txtAddress" required="required" />
 
 
                             <label for="txtAddress2"><b>Address2*</b></label>
 
-                            <input type="text" id="txtAddress2*" required="required" />
+                            <input type="text" id="txtAddress2" required="required" />
 
                             <label for="txtCity"><b>City*</b></label>
 
-                            <input type="text" id="txtCity*" required="required" />
+                            <input type="text" id="txtCity" required="required" />
 
                             <label for="carchk"><b>Car*</b></label>
 
@@ -120,35 +116,26 @@
 
                             <label for="txtState"><b>State*</b></label>
 
-                            <input type="text" id="txtState*" required="required" />
+                            <input type="text" id="txtState" required="required" />
 
                         </div>
                     </div>
                 </div>
 
-
-                <button
-                    style="text-align: center; color: white;background-color:#00B1EB;border:none;font-family: Arial, Helvetica, sans-serif;margin-left: 750px;margin-top: 30px; "
-                    type="button" class="btn btn-info">Continue
-
-
-                </button>
-
-
-                <button
-                    style=" width:5rem; color: #00B1EB;background-color:white;border:none;font-family: Arial, Helvetica, sans-serif; text-align: center;margin-left:750px ;margin-top: 25px;margin-bottom: 20px;"
-                    type="button" class="btn btn-info">CANCEL
-                </button>
+                <div class="text-center p-3">
+                    <button type="button" class="btn btn-primary">Continue</button><br /><br />
+                    <button type="button"class="btn btn-link">CANCEL</button>
+                </div>
             </form>
         </div>
-        <footer style="background-color:rgb(35, 60, 85); width:auto;height:200px; ">
+        <footer style="background-color:rgb(35, 60, 85);">
 
             <h6
-                style=" color: rgb(206, 201, 201); font-family:initial;padding-top: 20px;float: left; font-size: smaller;margin-left: 300px;">
+                style=" color: rgb(206, 201, 201); font-family:initial;padding-top: 20px;float: left; font-size: smaller;   ">
                 <small>2017 VolksWagen of America Inc.</small>
             </h6>
             <h6
-                style="padding-top: 20px;margin-right: 300px;float: right; font-family: initial; color: rgb(206, 201, 201); font-size:smaller;">
+                style="padding-top: 20px;float: right; font-family: initial; color: rgb(206, 201, 201); font-size:smaller;">
                 <small>Security & Service Terms | Security & Service Privacy Policy | About Car-Net | Help | VW.com
             </h6></small>
 
