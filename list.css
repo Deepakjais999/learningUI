@@ -1,0 +1,12 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: beige;
+}
+
+dd {
+    margin-bottom: 1rem;
+    margin-left: 0;
+}
