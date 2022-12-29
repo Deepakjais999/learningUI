@@ -1,0 +1,14 @@
+.boxA{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+div.row {
+    border-color: red;
+}
+
+ div {
+    border: 1px solid blue;
+    min-height: 100px;
+}
